@@ -17,7 +17,7 @@ services:
       - DB_NAME=prestashop
       - PS_INSTALL_AUTO=0
     ports:
-      - '9093:80'
+      - '9092:80'
     links:
       - prestashop_db:prestashop_db
     depends_on:
